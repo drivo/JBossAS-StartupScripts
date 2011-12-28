@@ -36,27 +36,27 @@ then you need to:
 
 * Open "/usr/local/jboss-node2/server.conf" and change the line
 
-    JBOSS_PORT_CONFIGURATION=ports-default 
+>    JBOSS_PORT_CONFIGURATION=ports-default 
 
     with 
 
-    JBOSS_PORT_CONFIGURATION=ports-01
+>    JBOSS_PORT_CONFIGURATION=ports-01
 
 * Open "/usr/local/jboss-node3/server.conf" and change the line
 
-    JBOSS_PORT_CONFIGURATION=ports-default 
+>    JBOSS_PORT_CONFIGURATION=ports-default 
 
     with 
 
-    JBOSS_PORT_CONFIGURATION=ports-02
+>    JBOSS_PORT_CONFIGURATION=ports-02
 
 * Open "/usr/local/jboss-node4/server.conf" and change the line
 
-    JBOSS_PORT_CONFIGURATION=ports-default 
+>    JBOSS_PORT_CONFIGURATION=ports-default 
 
     with 
 
-    JBOSS_PORT_CONFIGURATION=ports-03
+>    JBOSS_PORT_CONFIGURATION=ports-03
 
 You can do the same with other startup option you can find into server.conf file.
 
@@ -80,8 +80,11 @@ Let's suppose we have four JBossAS instances:
 * JBoss node 4 in "/usr/local/jboss-node4"
 
 > /usr/local/jboss-node1/start.sh
+
 > /usr/local/jboss-node2/start.sh
+
 > /usr/local/jboss-node3/start.sh
+
 > /usr/local/jboss-node4/start.sh
 
 Stopping JBossAS
@@ -94,8 +97,11 @@ Let's suppose we have four JBossAS instances:
 * JBoss node 4 in "/usr/local/jboss-node4"
 
 > /usr/local/jboss-node1/stop.sh
+
 > /usr/local/jboss-node2/stop.sh
+
 > /usr/local/jboss-node3/stop.sh
+
 > /usr/local/jboss-node4/stop.sh
 
 Restarting JBossAS
@@ -108,8 +114,11 @@ Let's suppose we have four JBossAS instances:
 * JBoss node 4 in "/usr/local/jboss-node4"
 
 > /usr/local/jboss-node1/restart.sh
+
 > /usr/local/jboss-node2/restart.sh
+
 > /usr/local/jboss-node3/restart.sh
+
 > /usr/local/jboss-node4/restart.sh
 
 License
