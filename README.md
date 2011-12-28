@@ -36,27 +36,27 @@ then you need to:
 
 * Open "/usr/local/jboss-node2/server.conf" and change the line
 
->    JBOSS_PORT_CONFIGURATION=ports-default 
+    JBOSS_PORT_CONFIGURATION=ports-default
 
-    with 
+    *with*
 
->    JBOSS_PORT_CONFIGURATION=ports-01
+    JBOSS_PORT_CONFIGURATION=ports-01
 
 * Open "/usr/local/jboss-node3/server.conf" and change the line
 
->    JBOSS_PORT_CONFIGURATION=ports-default 
+    JBOSS_PORT_CONFIGURATION=ports-default 
 
-    with 
+    *with*
 
->    JBOSS_PORT_CONFIGURATION=ports-02
+    JBOSS_PORT_CONFIGURATION=ports-02
 
 * Open "/usr/local/jboss-node4/server.conf" and change the line
 
->    JBOSS_PORT_CONFIGURATION=ports-default 
+    JBOSS_PORT_CONFIGURATION=ports-default 
 
-    with 
+    *with*
 
->    JBOSS_PORT_CONFIGURATION=ports-03
+    JBOSS_PORT_CONFIGURATION=ports-03
 
 You can do the same with other startup option you can find into server.conf file.
 
