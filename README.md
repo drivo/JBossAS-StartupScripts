@@ -35,12 +35,14 @@ Let's suppose we have four JBossAS instances and we need to setup JBossAS on the
 then you need to:
 
 * Open "/usr/local/jboss-node2/server.conf" and change the line
-
+``` bash
         JBOSS_PORT_CONFIGURATION=ports-default
-
+```
     *with*
 
+``` bash
         JBOSS_PORT_CONFIGURATION=ports-01
+```
 
 * Open "/usr/local/jboss-node3/server.conf" and change the line
 
